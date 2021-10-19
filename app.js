@@ -55,6 +55,7 @@ while ( a < 8 ) {
 
 let newArr1 = arr1.filter(x => arr2.includes(x));
 h2.innerText = `공통되는 숫자 개수 ${newArr1.length}`;
+console.log(newArr1);
 
 }
 
